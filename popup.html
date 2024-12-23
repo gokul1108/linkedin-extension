@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Profile Scraper</title>
+  <style>
+    body { 
+      width: 400px; 
+      padding: 10px; 
+      font-family: Arial, sans-serif; 
+    }
+    #profileList { 
+      max-height: 300px; 
+      overflow-y: auto; 
+    }
+    .profile-item {
+      border-bottom: 1px solid #eee;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>LinkedIn Profile Scraper</h2>
+  <div>
+    <button id="startScraping">Start Scraping</button>
+    <div id="status"></div>
+  </div>
+  <div id="profileList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
